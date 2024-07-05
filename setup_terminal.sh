@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp bashrc ~/.bashrc
+cp inputrc ~/.inputrc
+
+source ~/.bashrc
+bind -f ~/.inputrc
